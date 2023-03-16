@@ -1,0 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.mynavbar {
+    background-color: #4741AF;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 25px 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.banner-title {
+    font-size: 72px;
+    font-weight: 800;
+}
+
+.banner-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner-btn {
+    background-color: #6C63FF;
+    padding: 15px 55px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.banner-btn:hover {
+    color: #4741AF;
+    background-color: white
+}
+
+.text-subtitle {
+    color: #6c63ff;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.text-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text-p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text-link {
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.about-img {
+    margin-left: -325px;
+}
+
+.service-background {
+    background-color: #F3F9FB;
+    width: 624px;
+    height: 624px;
+    border-radius: 50%;
+}
+
+.service-icon {
+    background-color: #6C63FF;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.mydiv {
+    background-color: #F3F9FB;
+}
+
+.banner-img-2 {
+    margin-left: -115px;
+}
+
+.product-card {
+    border-bottom: 3px solid #6C63FF;
+}
+
+.feature-icon {
+    background-color: #6C63FF;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+}
+
+.feature-icon i {
+    font-size: 25px;
+    color: white;
+}
+
+.blog-link {
+    font-size: 18px !important;
+}
+
+.blog-date {
+    font-size: 16px;
+}
+
+/* animation */
+.post:hover .post-img {
+    transform: scale(1.1);
+}
+
+.post-img {
+    transition: all .3s;
+}
+
+.product-card:hover {
+    margin-top: -15px;
+}
+
+.product-card {
+    transition: all .3s;
+}
+
+.service-card:hover .service-icon {
+    margin-left: 70px;
+}
+
+.service-icon {
+    transition: all .6s;
+}
