@@ -2,7 +2,7 @@
 
 
 ### Project Live :
-
+https://mohammadxxali.github.io/2050-Landing-Page/
 
 --------
 
